@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import NavComponent from './components/NavComponent';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <BrowserRouter>
+    <NavComponent/>
     <App />
   </BrowserRouter>,
  document.getElementById('root'));
