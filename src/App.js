@@ -1,13 +1,18 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Switch>
+          
+        </Switch>
+      </div>
+    )
+  }
 }
 
 export default App;
