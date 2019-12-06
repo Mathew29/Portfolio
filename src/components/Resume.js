@@ -43,6 +43,11 @@ function Resume() {
       </div>
       <div className="education">
         <h3>Education:</h3>
+        <ul>
+          <li>Certification of Completion from Epicodus coding bootcamp</li>
+          <li>Certification Linux Pro from TestOut</li>
+          <li>Certification PC Pro from TestOut</li>
+        </ul>
       </div>
 
     </div>
