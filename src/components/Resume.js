@@ -9,7 +9,12 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 class Resume extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container" 
+      style={{
+        background: 'black',
+        width: '100%',
+        height: '200%'
+      }}>
         <Document
         file={resumePDF}
         onLoadSuccess={this.onDocumentLoadSuccess} >
