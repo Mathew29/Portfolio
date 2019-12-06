@@ -17,6 +17,13 @@ function Resume() {
       </div>
       <div className="experience">
         <h3>Experience:</h3>
+        <p>Hovrtek (August 2019 – September 2019)</p>
+        <p>Portland, Oregon</p>
+        <p>Full-Stack Developer Intern</p>
+        <ul>
+          <li>Improved the user-experience (UX) for a social media mobile app that was shown to investors.  The technology used were React Native, Google Places API and Firebase database.</li>
+          <li>Redesigned social media mobile app using a custom personal server using MongoDB and React Native.</li>
+        </ul>
       </div>
       <div className="education">
         <h3>Education:</h3>
