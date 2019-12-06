@@ -9,11 +9,13 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 class Resume extends Component {
   render() {
     return (
-      <Document
-      file={resumePDF}
-      onLoadSuccess={this.onDocumentLoadSuccess} >
-        <Page pageNumber={1} />
-      </Document>
+      <div className="container">
+        <Document
+        file={resumePDF}
+        onLoadSuccess={this.onDocumentLoadSuccess} >
+          <Page pageNumber={1} />
+        </Document>
+      </div>
     )
   }
 }
